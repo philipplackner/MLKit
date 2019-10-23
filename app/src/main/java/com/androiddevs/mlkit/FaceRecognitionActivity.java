@@ -177,7 +177,7 @@ public class FaceRecognitionActivity extends AppCompatActivity {
 
             Paint paint = new Paint();
             paint.setStyle(Paint.Style.STROKE);
-            paint.setStrokeWidth(1.5f);
+            paint.setStrokeWidth(3f);
             paint.setAntiAlias(true);
 
             ArrayList<Pair<Integer, String>> colorList = setupColorList();
